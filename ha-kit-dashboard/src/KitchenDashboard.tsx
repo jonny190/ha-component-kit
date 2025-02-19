@@ -2,7 +2,6 @@ import { Group, Row, ButtonCard, Column, ClimateCard, FamilyCard, PersonCard, Al
 import { useHass } from "@hakit/core";
 
 function Dashboard() {
-  const { getAllEntities } = useHass();
   return <Column fullWidth fullHeight>
   <Row fullWidth>
     <Group title="Info">
