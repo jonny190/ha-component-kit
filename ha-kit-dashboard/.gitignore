@@ -9,9 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
-src/coverage
-storybook-static
-coverage
+dist-ssr
 *.local
 
 # Editor directories and files
@@ -24,18 +22,3 @@ coverage
 *.njsproj
 *.sln
 *.sw?
-*.tgz
-
-supported-types.d.ts
-.ha-repo-cache
-.cache
-.env
-ha-dashboard
-packages/core/.env
-ha-kit-dashboard/.env
-
-hakit/config
-hakit/server/hakit-designer
-hakit/server/options.json
-trace
-trace/*
