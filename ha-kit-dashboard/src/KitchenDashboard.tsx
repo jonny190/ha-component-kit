@@ -1,5 +1,4 @@
 import { Group, Row, ButtonCard, Column, ClimateCard, FamilyCard, PersonCard, AlarmCard  } from '@hakit/components';
-import { useHass } from "@hakit/core";
 
 function Dashboard() {
   return <Column fullWidth fullHeight>
